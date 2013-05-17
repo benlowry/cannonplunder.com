@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+	<title>Cannon Plunder</title>
+    <style type="text/css">
+		@import url("/style.css");
+	</style>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+	<script type="text/javascript" src="/swfobject.js"></script>
+<body>
+
+
+	<div id="header">
+
+		<ul>
+			<li><asp:hyperlink id="CannonPlunder" cssclass="cannonplunder" navigateurl="/cannonplunder/default.aspx" title="Play Cannon Plunder" runat="server"><span>Play Cannon Plunder</span></asp:hyperlink></li>
+		</ul>
+
+		<a id="logo" href="http://www.cannonplunder.com/"><img src="/images/logo.png" alt="Cannon Plunder" /></a>
+
+	</div>
+
+	<div id="contentwrapper">
+
+		<h1>Play Cannon Plunder</h1>
+
+		<div class="gamebox">
+
+			<div class="game">
+
+				<div id="cannonplunder"></div>
+
+				<noscript>
+					<h2 class="noscript">Hello, you either have JavaScript turned off or an old version of Adobe's Flash Player. <a href="http://www.adobe.com/go/getflashplayer/">Get the latest Flash player</a>.</h2>
+				</noscript>
+
+			</div>
+
+			<div class="block">
+				<h2>How to play</h2>
+				<p>Aim your cannon with the mouse.  When you have lined up your shot hold down the mouse button to power your cannon and release it to fire!</p>
+			</div>
+			
+		</div>
+		
+		<div class="rightbox">
+
+			<h3>Share this</h3>
+
+			<ul class="share">
+				<li id="facebook"><img src="/images/icons/facebook.gif" alt="Facebook" /><a target="_blank" href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww.cannonplunder.com%2F&amp;t=Play+Cannon+Plunder">Facebook</a></li>
+				<li id="twitter"><img src="/images/icons/twitter.gif" alt="Twitter" /><a target="_blank" href="http://twitter.com/home?status=Playing+Cannon+Plunder+at+http%3A%2F%2Fwww.cannonplunder.com%2F">Twitter</a></li>
+				<li id="stumbleupon"><img src="/images/icons/stumbleupon.gif" alt="Stumbleupon" /><a target="_blank" href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwww.cannonplunder.com%2F&amp;title=Play+Cannon+Plunder">Stumbleupon</a></li>
+			</ul>
+
+			<h3>Embed on your page:</h3>
+			<input type="text" id="embedurl" onclick="this.select();" value='&lt;object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="550" height="400" id="cannonplunder" align="middle"&gt;&lt;param name="allowScriptAccess" value="aways" /&gt;&lt;param name="allowFullScreen" value="false" /&gt;&lt;param name="movie" value="/files/cannonplunder_embed.swf" /&gt;&lt;param name="quality" value="high" /&gt;&lt;param name="bgcolor" value="#FFFFFF" /&gt;	&lt;embed src="/files/cannonplunder_embed.swf" quality="high" wmode="transparent" bgcolor="#FFFFFF" width="550" height="400" name="cannonplunder" align="middle" allowScriptAccess="allow" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /&gt;&lt;/object&gt;' />
+
+		</div>	
+
+		<br class="clearer" />
+
+	</div>
+
+	<div id="footer">
+		<p>Use of this website implies acceptance and understanding of our <a href="/termsofuse.html">terms of use</a>, <a href="/acceptableuse.html">acceptable use</a> and <a href="/privacy.html">privacy policy</a>.</p>
+		<p>&copy; 2009 <a href="http://www.cannonplunder.com/">Cannon Plunder.com</a> | <a href="http://www.inflashstudios.com/">InFlash Studios</a> | <a href="http://lvlboost.com/">Game Analytics</a> | <a href="http://playtomic.org">Open source tools for game developers</a></p>
+
+	</div>
+	
+	window.onload = function()
+
+		var params = { allowscriptaccess: "always" };
+		swfobject.embedSWF("/files/cannonplunder.swf", "cannonplunder", "550", "400", "9.0.0","/expressInstall.swf", leveldata, params);
+	}
+	</script>
+
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+* { padding: 0px; margin: 0px; font-family: Arial, sans-serif; font-size: 11pt; color: #000; list-style-type: none; }
+html { background: #003148 url(/images/background.jpg) no-repeat top right; }
+body { width: 980px; margin: 8px auto; }
+a img { border: none; }
+p { margin-bottom: 12px; }
+
+h1 { font-size: 10pt; margin-bottom: 8px; font-weight: bold; }
+h1 a { font-size: 10pt; }
+h2.noscript { font-size: 14pt !important; font-weight: bold !important; text-align: center !important; color: #000 !important; margin: 12px; }
+h2.noscript a { color: blue !important; font-size: 14pt; }
+
+.error { height: 500px; }
+
+#header { height: 130px; width: 736px; }
+#header .logo { width: 360px; height: 130px; display: block; }
+#header ul { float: right; margin-top: 104px; }
+#header li { display: block; float: left; height: 26px; }
+#header li a { height: 26px; display: block; background-repeat: no-repeat; background-position: 0px -26px; }
+#header li a:hover { background-position: 0px -52px; }
+#header li a.on { background-position: 0px 0px !important; }
+#header li span { display: none; }
+#header li a.cannonplunder { background-image: url(/images/cannonplunder_tab.png); width: 129px; }
+
+#contentwrapper { width: 980px; }
+
+#contentleft { width: 736px; background-color: #FFF; float: left; }
+#contentleft .edge { width: 736px; height: 4px; display: block; }
+#contentleft .padder { padding: 4px; min-height: 600px; }
+#contentleft a:hover { color: #369; }
+
+#contentright { margin-left: 744px; width: 236px; }
+#contentright a { font-size: 8pt; color: #EEE; font-weight: normal; text-decoration: none; }
+#contentright a:hover { color: #FFF; text-decoration: underline; }
+#contentright h2 { font-size: 9pt; text-transform: uppercase; color: #FFF !important; margin-bottom: 4px; }
+#contentright ul, #contentright a.sponsor { margin-bottom: 12px; margin-left: 6px; }
+#contentright a.sponsor img { width: 91px; height: 83px; }
+#contentright li { line-height: 17px; }
+
+#accountbox { margin-bottom: 8px; height: 80px; }
+#accountbox img { display: block; float: left; }
+#accountbox div { margin-left: 80px; }
+#accountbox p { font-size: 8pt; font-weight: bold; color: #FFF; margin-bottom: 8px; }
+#accountbox h3 { font-size: 8pt; font-weight: bold; color: #FFF; margin: 4px 0px; }
+#accountbox a.button { display: block; float: left; margin-right: 4px; font-size: 8pt; color: #FFF; font-weight: bold; height: 20px; line-height: 20px; padding: 0px 3px; border-top: 1px solid #999; border-left: 1px solid #999; border-right: 1px solid #000; border-bottom: 1px solid #000; background: #000 url(/images/button.png) repeat-x; }
+#accountbox input { border-bottom: 1px solid #999; border-right: 1px solid #999; border-top: 1px solid #333; border-left: 1px solid #333; background-color: #3C6980; color: #FFF; font-size: 8pt; padding: 2px 3px; width: 100px; display: block; margin-bottom: 4px; }
+#accountbox a.nbutton { display: block; float: left; font-size: 8pt; color: #FFF; font-weight: normal; height: 22px; line-height: 22px; margin-left: 4px; }
+#accountbox span.profileoptions { height: 30px; margin-bottom: 4px; display: block; }
+
+form { padding-left: 10px; }
+form textarea { width: 400px; height: 150px; border: 1px solid #CCC; background-color: #F5F5F5; padding: 4px; line-height: 17px; font-size: 8pt; display: block; margin-bottom: 4px; }
+form span.note { font-size: 8pt; color: #666; display: block; margin-bottom: 8px; }
+form input.text { width: 140px; line-height: 17px; padding: 1px 2px; border: 1px solid #CCC; background-color: #F5F5F5; font-size: 8pt; display: block; margin-bottom: 8px; }
+form input.file { width: 200px; font-size: 8pt; margin-bottom: 8pt; display: block; padding: 1px 2px; }
+form input.button { padding: 3px 4px; display: block; font-size: 9pt; font-weight: bold; color: #FFF; font-weight: bold; border-top: 1px solid #999; border-left: 1px solid #999; border-right: 1px solid #000; border-bottom: 1px solid #000; background: #000 url(/images/button.png) repeat-x;}
+form span.checkbox { display: block; margin-bottom: 4px; }
+form span.checkbox label { margin-left: 8px; font-size: 8pt; }
+form p { margin-bottom: 8px; font-size: 8pt; }
+
+#services { height: 360px; margin-top: 8px; }
+#services .service { width: 170px; height: 60px; margin: 0px 4px 4px 0px; padding: 4px; display: block; float: left; }
+#services .service h3 { height: 20px; line-height: 20px; margin-bottom: 4px; font-size: 10pt; font-weight: normal; }
+#services .service h3 img { display: block; float: left; margin-right: 4px; width: 20px; height: 20px; }
+#services .service input { border: 1px solid #CCC; padding: 1px 2px; background-color: #F5F5F5; width: 100px; font-size: 8pt; }
+
+#footer { margin: 8px 0px; padding: 4px 0px; width: 736px; }
+#footer, #footer * { font-size: 9px; text-transform: uppercase; color: #999; }
+#footer p { margin-bottom: 4px !important; line-height: 16px; }
+#footer a:hover { color: #FFF; }
+
+.gad728 { width: 728px; height: 90px; }
+.gad120 { width: 160px; height: 600px; }
+.mbottom { margin-bottom: 8px; }
+
+.gamebox { float: left; width: 558px; }
+.game { margin-bottom: 4px; padding: 4px; width: 550px; height: 400px; background: #FFF url(/images/gamebox.png) no-repeat; }
+
+.rightbox { margin-left: 562px; width: 170px; }
+.rightbox h3 { font-size: 8pt; margin-bottom: 4px; }
+.rightbox input { display: block; border: 1px solid #CCC; padding: 2px 4px; width: 150px; font-size: 7pt; color: #333; background-color: #FFF; margin-bottom: 8px; overflow: hidden; }
+.rightbox textarea { display: block; border: 1px solid #CCC; padding: 2px 4px; width: 150px; height: 100px; font-size: 7pt; color: #333; background-color: #FFF; margin-bottom: 8px; overflow: hidden; }
+
+.block { margin-bottom: 8px; }
+.block h2 { font-size: 9pt; margin-bottom: 4px; }
+.block p, .block li, .block a, .block label { font-size: 8pt; }
+
+.gamelist { }
+.gamelist a { height: 56px; width: 56px; display: block; float: left; padding: 5px; background: #FFF url(/images/cannonplunder_level.png) no-repeat; background-position: 0px 0px; }
+.gamelist a:hover { background-position: 0px -66px; }
+.gamelist span { display: none; }
+.gamelist img { display: block; height: 56px; width: 56px; }
+
+.share { margin-bottom: 8px; }
+.share li { display: block; height: 20px; }
+.share li img { display: block; float: left; margin-right: 6px; }
+.share li a { font-size: 8pt; line-height: 20px; color: #369; }
+.share li a:hover { color: #000; }
+.share input.button { display: inline; width: auto !important; padding: 2px; font-size: 9pt; font-weight: bold; color: #FFF; font-weight: bold; border-top: 1px solid #999; border-left: 1px solid #999; border-right: 1px solid #000; border-bottom: 1px solid #000; background: #000 url(/images/button.png) repeat-x;}
+
+
+.info { margin-bottom: 8px; }
+.info li { display: block; line-height: 16px; font-size: 8pt; }
+.info li img { display: block; float: left; margin-right: 6px; }
+.info li a { font-size: 8pt; color: #369; text-decoration: underline; }
+
+.rating { height: 18px; }
+.rating img { display: block; float: left; width: 12px !important; height: 12px !important; margin: 0px 1px 0px 0px !important; padding: 0px !important; }
+.rating div { height: 12px; margin-bottom: 4px; }
+
+.clearer { clear: both; height: 1px; line-height: 1px; overflow: hidden; }
+
+.padleft { padding-left: 10px; }
+.padleft .block { margin-bottom: 20px; }
+
+.avatarbox { height: 80px; margin-bottom: 8px; }
+.avatarsmall { float: left; display: block; margin: 0px 4px 4px 0px; }
+.avatarbox .info { float: left !important; margin: 0px !important; }
+.avatarbig .acontent { float: left; display: block; width: 110px; }
+.avatarbig .acontent img { display: block; margin-bottom: 8px; }
+.avatarbig .pcontent { margin-left: 120px; }
+.avatarbig .pcontent p { margin: 4px 0px 12px 0px; }
+
+.comments .avatarbig .acontent { width: 80px; }
+.comments .avatarbig .pcontent { margin-left: 90px; }
+.comments .comment { padding: 4px 8px 4px 4px; margin-bottom: 0px !important; }
+.comments .alt { background-color: #EEE; }
+.comments .comment h2, .comments .comment h2 * { color: #666; font-size: 8pt; }
+.comments .comment h2 a:hover { color: #000; }
+.comments .comment p { font-size: 9pt; }
+.comments form { padding: 4px; background-color: #EEE; margin: 4px 0px; }
+.comments form textarea { background-color: #FFF; width: 530px; }
+
+.blist { list-style-type: circle !important; padding-left: 20px; }
+.blist li { list-style-type: circle !important; line-height: 17px; margin-bottom: 4px; width: 550px; }
+
+.comments textarea { height: 100px !important; }
+
+#email1 { display: none; }
+#email2 { display: none; }
+#email3 { display: none; }
+#email4 { display: none; }
+
